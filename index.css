@@ -48,6 +48,9 @@ input[type="submit"]{
     color: white;
 }
 
-/* @media screen and(max) {
-    
-} */
+@media screen and(max-width: 500px) {
+    form{
+        width: 50%;
+        margin: 100px auto;
+    }
+}

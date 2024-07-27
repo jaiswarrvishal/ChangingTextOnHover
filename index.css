@@ -3,7 +3,13 @@ body{
     justify-content: center;
     align-items: center;
     background: url('./image/iloveu.jpeg') center / cover no-repeat fixed;
-    font: 1em/1.618 Inter, sana-serif;
+    /* font: 1em/1.618 Inter, sana-serif; */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+h3{
+    text-transform: uppercase;
 }
 
 form{
@@ -11,7 +17,7 @@ form{
     flex-direction: column;
     align-items: center;
     max-width: 500px;
-    height: 200px;
+    height: 280px;
     padding: 35px;
     font-size: 15px;
     /* color: #4e4e4e; */
@@ -26,7 +32,7 @@ form{
 
 .button{
     display: flex;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 input[type="submit"]{
     padding: 10px 20px;
